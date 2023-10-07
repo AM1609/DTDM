@@ -36,7 +36,7 @@ const ContactsScreen = ({navigation})=>
                     name={name} 
                     avatar={avatar} 
                     phone={phone} 
-                    
+
                     onPress={() => navigation.navigate("ProfileScreen", {contacts1:item})}            
                 />;
     };

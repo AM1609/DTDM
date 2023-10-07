@@ -60,10 +60,10 @@ const styles = StyleSheet.create({
     height: 90,
     borderRadius: 45,
     borderColor: 'white',
-    borderWidth: 2,
+    borderWidth: 0,
   },
   name: {
-    fontSize: 20,
+    fontSize: 25,
     marginTop: 24,
     marginBottom: 2,
     fontWeight: 'bold',

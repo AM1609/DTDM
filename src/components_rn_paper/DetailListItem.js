@@ -66,8 +66,8 @@ const styles = StyleSheet.create({
     fontSize: 16,
   },
   subtitle: {
-    color: colors.blue,
-    fontSize: 15,
+    color: colors.black,
+    fontSize: 17,
     marginTop: 4,
   },
 });

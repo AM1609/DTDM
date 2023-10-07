@@ -2,12 +2,6 @@ import { StyleSheet, Text, View } from "react-native";
 import React from "react";
 import { createStackNavigator } from "@react-navigation/stack";
 import { NavigationContainer } from "@react-navigation/native";
-import HomeScreen from "../screens/HomeScreen";
-import DetailsScreen from "../screens/DetailsScreen";
-import ScreenTest from "../screens/ScreenTest";
-import MenuBtn from "../components_rn_paper/MenuBtn";
-import AppBarHeader from "../components_rn_paper/AppBarHeaderMenu";
-import AppBarHeaderMenu from "../components_rn_paper/AppBarHeaderMenu";
 import ContactsScreen from "../screens/ContactsScreen";
 import ProfileScreen from "../screens/ProfileScreen";
 // import ProfileScreen from "../src/screens/ProfileScreen";
@@ -29,7 +23,6 @@ const CustomNavigationBar_Lab2 = () => {
           }
         }
       >
-        
         <Stack.Screen name="Contacts" component={ContactsScreen} options={{title:"Contacts"}}/>
         <Stack.Screen name="ProfileScreen" component={ProfileScreen} />
         {/* <Stack.Screen name="ScreenTest" component={ScreenTest} /> */}

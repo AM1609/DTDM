@@ -5,6 +5,7 @@ import { fetchRandomContact } from "../utility/api";
 import ContactThumbnail from "../components_rn_paper/ContactThumbnail";
 import DetailListItem from "../components_rn_paper/DetailListItem";
 import { useRoute } from "@react-navigation/native";
+import { Avatar } from "react-native-paper";
 
 export default function ProfileScreen(navigation) 
 {
@@ -52,22 +53,3 @@ const styles = StyleSheet.create({
     backgroundColor: "white",
   },
 });
-
-// const Profile =({ route})=> 
-// { 
-//   // 
-//   const {contact} = route.params; 
-//   const {avatar, name, email, phone, cell}= contact; 
-//   return ( 
-//   <View style={styles.container}> 
-//     <View style={styles.avatarSection}> 
-//     <ContactThumbnail avatar={avatar} name={name} phone={phone} /> 
-//     </View> 
-//   <View style={styles.detailsSection}> 
-//     <DetailListItem icon="mail" title="Email" subtitle={email} /> 
-//     <DetailListItem icon="phone" title="Work" subtitle={phone} /> 
-//     <DetailListItem icon="smartphone" title="Personal" subtitle={cell} /> 
-//   </View> 
-//   </View> ); 
-// }
-// export default Profile;
